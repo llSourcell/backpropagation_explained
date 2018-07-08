@@ -1,5 +1,6 @@
-## Gradient Descent Example for Linear Regression
-This example project demonstrates how the [gradient descent](http://en.wikipedia.org/wiki/Gradient_descent) algorithm may be used to solve a [linear regression](http://en.wikipedia.org/wiki/Linear_regression) problem. A more detailed description of this example can be found [here](https://spin.atomicobject.com/2014/06/24/gradient-descent-linear-regression/).
+## Overview. 
+
+This is the code for [this](https://youtu.be/FaHHWdsIYQg) video on Youtube by Siraj Raval. This example project demonstrates how the [gradient descent](http://en.wikipedia.org/wiki/Gradient_descent) algorithm may be used to solve a [linear regression](http://en.wikipedia.org/wiki/Linear_regression) problem. A more detailed description of this example can be found [here](https://spin.atomicobject.com/2014/06/24/gradient-descent-linear-regression/). Remember, gradient descent is the optimization strategy, but when applied to neural networks, gradient descent is renamed backpropagation. For code on gradient descent applied to a neural network, see [this](https://github.com/llSourcell/Make_a_neural_network/blob/master/demo.py). 
 
 ### Code Requirements
 The example code is in Python ([version 2.6](https://www.python.org/doc/versions/) or higher will work). The only other requirement is [NumPy](http://www.numpy.org/).
@@ -33,3 +34,7 @@ Starting gradient descent at b = 0, m = 0, error = 5565.10783448
 Running...
 After 1000 iterations b = 0.0889365199374, m = 1.47774408519, error = 112.614810116
 ```
+
+## Credits
+
+The credits for this code go to [mattnedrich](https://github.com/mattnedrich/GradientDescentExample). I've merely made a wrapper to get people started. 
